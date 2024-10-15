@@ -1,1 +1,7 @@
 # Mobile-Application-Programming
+
+This mobile application is designed to make writing and organizing crochet patterns easier and faster for crochet enthusiasts who want a more efficient way to manage their projects.
+### Writing patterns
+When creating a pattern, users can add a title, specify categories for the project (amigurumi, blanket, scarf, granny square etc.), the estimated time needed for crocheting and add a list with the materials needed for the pattern, such as the type of yarn, hooks, and other supplies. Besides adding normal notes on the pattern, the application provides an efficient way for writing the rows needed for the project. By pressing the button "Add rows", a special "keyboard" appears with buttons representing the abbreviations of common stitches like "sc" (single crochet), "dc" (double crochet) and many others, so users can only tap them instead of writing them manually. Based on the inputs, the application will calculate the total number of stitches in real time, ensuring the stitch count is accurate. The application will automatically increment the rows for users after they press an arrow.
+### Dashboard
+The main screen of the application features a dashboard where users can see all their patterns in one place. Clicking a pattern opens it read-only mode to review it without changing anything or to start working on the project. When clicking a button, users can either edit or delete the pattern. There is also a "Write a new pattern" button on the dashboard that lets users start working on their patterns.
