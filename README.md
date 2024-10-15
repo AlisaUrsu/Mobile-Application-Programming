@@ -34,3 +34,19 @@ Pattern Creation:
 Users can create a new pattern by entering the pattern name, category, materials, time taken, and detailed steps.
 Each step of the pattern will automatically increment the round number for clarity.
 After saving, the pattern will be stored in the local database (and synced with the server when online).
+2. Read
+Pattern Reading:
+
+Users can view a list of all their patterns, search by name or filter by category.
+When selecting a pattern, they will see the full details (steps, materials, time taken, etc.).
+The patterns are retrieved from the local database and synced with the server when online.
+Update
+Pattern Update:
+
+Users can edit their existing patterns (e.g., adding more steps or updating the materials list).
+The app will automatically save the updated pattern to the local database, syncing changes to the server when online.
+Delete
+Pattern Deletion:
+
+Users can delete a pattern if they no longer need it.
+The pattern will be removed from the local database and the server.
