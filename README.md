@@ -29,9 +29,7 @@ Stitches and categories cannot be modified by users.
 
 ## Action - CRUD operations
 1. Create
-Pattern Creation:
-
-Users can create a new pattern by entering the pattern name, category, materials, time taken, and detailed steps.
+Pattern Creation: Users can write a new pattern by entering the pattern name, category, materials, time taken, and detailed steps.
 Each step of the pattern will automatically increment the round number for clarity.
 After saving, the pattern will be stored in the local database (and synced with the server when online).
 2. Read
