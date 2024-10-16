@@ -28,23 +28,13 @@ A pattern can have
 Stitches and categories cannot be modified by users.
 
 ## Action - CRUD operations
-1. Create
-Pattern Creation: Users can write a new pattern by entering the pattern name, category, materials, time taken, and detailed steps.
-Each step of the pattern will automatically increment the round number for clarity.
-After saving, the pattern will be stored in the local database (and synced with the server when online).
-2. Read
-Pattern Reading:
+- create: users can add a pattern by writing in a window that works as a note taking application that lets user personalize their patterns. Each row of the pattern will be automatically incrementented and the number of stitches automatically calculated.
+- read: users can view a list of all their patterns, search by name or filter by category. When selecting a pattern, they will see the full details (steps, materials, time taken, etc.).
+- update: users can edit their existing patterns (e.g., adding more steps or updating the materials list).
+- delete: users can delete a pattern if they no longer need it.
 
-Users can view a list of all their patterns, search by name or filter by category.
-When selecting a pattern, they will see the full details (steps, materials, time taken, etc.).
-The patterns are retrieved from the local database and synced with the server when online.
-Update
-Pattern Update:
+### Persistance Details
+Every CRUD operation persists on the local database and will be synce with the server when online.
+After creating and saving a pattern, it will be stored in the local database and and synced with the server when online. The patterns are retrieved from the local database and synced with the server when online. The application will automatically save the updated pattern/will delete the pattern to/from the localdatabase and the changes will be synced with server when online.
 
-Users can edit their existing patterns (e.g., adding more steps or updating the materials list).
-The app will automatically save the updated pattern to the local database, syncing changes to the server when online.
-Delete
-Pattern Deletion:
-
-Users can delete a pattern if they no longer need it.
-The pattern will be removed from the local database and the server.
+The application stores all data in a local database on the device, ensuring users can access their data even when offline.
