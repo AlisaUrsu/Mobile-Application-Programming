@@ -38,3 +38,15 @@ Every CRUD operation persists on the local database and will be synce with the s
 After creating and saving a pattern, it will be stored in the local database and and synced with the server when online. The patterns are retrieved from the local database and synced with the server when online. The application will automatically save the updated pattern/will delete the pattern to/from the localdatabase and the changes will be synced with server when online.
 
 The application stores all data in a local database on the device, ensuring users can access their data even when offline.
+
+### Offline Handling
+When the application detects the user is offline, it goes in read-only mode.
+- read: users can see the list of patterns and choose to open and read one
+- create: users cannot write any patterns while offline, a dialog displaying "You are currently offline. Creating new patterns will be available when you’re back online." will show.
+- update: users cannot edit any patterns while offline, a dialog displaying "You are currently offline. Editing this pattern will be available when you’re back online." will show.
+- delete: users cannot delete any patterns while offline, a dialog displaying "You are currently offline. Deleting this pattern will be available when you’re back online." will show.
+
+## Application Mock
+![Frame 278 (1)](https://github.com/user-attachments/assets/c315e55d-41ce-4d49-8486-4d655e898481)
+![Frame 279](https://github.com/user-attachments/assets/c45d91b1-6510-40e7-a220-a5e8359d212a)
+
